@@ -1,45 +1,50 @@
 {
-    "name": "slush-atom-shell",
-    "description": "Generate a Atom-shell app from scratch",
-    "version": "0.0.1",
-    "homepage": "https://github.com/paulohp/slush-atom-shell",
-    "author": {
-        "name": "Paulo Pires",
-        "email": "taralloqueiroiz@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/paulohp/slush-atom-shell.git"
-    },
-    "bugs": {
-        "url": "https://github.com/paulohp/slush-atom-shell/issues"
-    },
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://github.com/paulohp/slush-atom-shell/blob/master/LICENSE"
-    }],
-    "main": "slushfile.js",
-    "engines": {
-        "node": ">= 0.10.26",
-        "npm": ">=1.4.3"
-    },
-    "scripts": {
-        "test": "echo \"No tests\""
-    },
-    "dependencies": {
-        "gulp": "^3.6.2",
-        "gulp-template": "^0.1.1",
-        "gulp-install": "^0.1.4",
-        "gulp-conflict": "^0.1.1",
-        "gulp-rename": "^1.2.0",
-        "underscore.string": "^2.3.3",
-        "inquirer": "^0.4.1"
-    },
-    "peerDependencies": {
-        "slush": ">=1.0.0"
-    },
-    "keywords": [
-        "slushgenerator",
-        "atom-shell"
-    ]
+  "name": "slush-atom-shell",
+  "description": "Generate a Atom-shell app from scratch",
+  "version": "0.0.1",
+  "homepage": "https://github.com/paulohp/slush-atom-shell",
+  "author": {
+    "name": "Paulo Pires",
+    "email": "taralloqueiroiz@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulohp/slush-atom-shell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulohp/slush-atom-shell/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/paulohp/slush-atom-shell/blob/master/LICENSE"
+    }
+  ],
+  "main": "slushfile.js",
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "gulp": "^3.6.2",
+    "gulp-template": "^0.1.1",
+    "gulp-install": "^0.1.4",
+    "gulp-conflict": "^0.1.1",
+    "gulp-rename": "^1.2.0",
+    "underscore.string": "^2.3.3",
+    "inquirer": "^0.4.1"
+  },
+  "peerDependencies": {
+    "slush": ">=1.0.0"
+  },
+  "keywords": [
+    "slushgenerator",
+    "atom-shell"
+  ],
+  "devDependencies": {
+    "gulp-download-atom-shell": "0.0.2"
+  }
 }

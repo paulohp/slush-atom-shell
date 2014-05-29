@@ -13,6 +13,7 @@ var gulp = require('gulp'),
     conflict = require('gulp-conflict'),
     template = require('gulp-template'),
     rename = require('gulp-rename'),
+    downloadatomshell = require('gulp-download-atom-shell'),
     _ = require('underscore.string'),
     inquirer = require('inquirer');
 
@@ -53,3 +54,12 @@ gulp.task('default', function (done) {
                 });
         });
 });
+
+gulp.task('downloadatomshell', function(){
+    downloadatomshell({
+      version: '0.12.5',
+      outputDir: __dirname + 'templates/binaries'
+    });
+});
+
+gulp.task('default', ['downloadatomshell']);
