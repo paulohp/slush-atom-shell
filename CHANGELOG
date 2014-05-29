@@ -2,3 +2,8 @@ v0.0.1:
   date: 2014-4-28
   changes:
     - Initial release.
+
+v0.0.2:
+	date: 2014-4-29
+	changes:
+		- Added task for download atom-shell for templates/binaries
