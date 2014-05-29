@@ -58,7 +58,7 @@ gulp.task('default', function (done) {
 gulp.task('downloadatomshell', function(){
     downloadatomshell({
       version: '0.12.5',
-      outputDir: __dirname + 'templates/binaries'
+      outputDir: __dirname + '/templates/binaries'
     });
 });
 
