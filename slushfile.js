@@ -51,7 +51,7 @@ gulp.task('default', function (done) {
                 .pipe( downloadatomshell({
                     version: '0.12.5',
                     outputDir: '/templates/binaries'
-                  });
+                  })
                 )
                 .pipe(install())
                 .on('end', function () {
