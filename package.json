@@ -1,7 +1,7 @@
 {
   "name": "slush-atom-shell",
   "description": "Generate a Atom-shell app from scratch",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "homepage": "https://github.com/paulohp/slush-atom-shell",
   "author": {
     "name": "Paulo Pires",

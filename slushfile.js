@@ -28,6 +28,10 @@ gulp.task('default', function (done) {
         name: 'appDescription',
         message: 'What is the description for your app?'
     }, {
+        type: 'input',
+        name: 'appVersion',
+        message: 'What is the version for your app?'
+    }, {
         type: 'confirm',
         name: 'moveon',
         message: 'Continue?'
