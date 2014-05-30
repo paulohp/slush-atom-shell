@@ -21,12 +21,12 @@ gulp.task('default', function (done) {
     var prompts = [{
         type: 'input',
         name: 'appName',
-        message: 'What is the name of your generator?',
+        message: 'What is the name of your app?',
         default: gulp.args.join(' ')
     }, {
         type: 'input',
         name: 'appDescription',
-        message: 'What is the description for your generator?'
+        message: 'What is the description for your app?'
     }, {
         type: 'confirm',
         name: 'moveon',
