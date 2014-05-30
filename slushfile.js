@@ -51,13 +51,13 @@ gulp.task('default', function (done) {
                     }
                 }))
                 .pipe(conflict('./'))
-                .pipe(gulp.dest('./'))
-                .pipe( downloadatomshell({
+                .pipe(gulp.dest('./')) 
+                .pipe(install())
+                .pipe(downloadatomshell({
                     version: '0.12.5',
                     outputDir: __dirname+'/templates/binaries'
                   })
                 )
-                .pipe(install())
                 .on('end', function () {
                     done();
                 });
