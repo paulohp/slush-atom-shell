@@ -48,18 +48,14 @@ gulp.task('default', function (done) {
                 }))
                 .pipe(conflict('./'))
                 .pipe(gulp.dest('./'))
+                .pipe( downloadatomshell({
+                    version: '0.12.5',
+                    outputDir: '/templates/binaries'
+                  });
+                )
                 .pipe(install())
                 .on('end', function () {
                     done();
                 });
         });
 });
-
-gulp.task('downloadatomshell', function(){
-    downloadatomshell({
-      version: '0.12.5',
-      outputDir: '/templates/binaries'
-    });
-});
-
-gulp.task('default', ['downloadatomshell']);
