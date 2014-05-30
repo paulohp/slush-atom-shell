@@ -1,2 +1,2 @@
-## <%= appTitle %>
+## <%= appName %>
 ##### <%= appDescription %>
