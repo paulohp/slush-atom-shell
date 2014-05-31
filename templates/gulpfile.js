@@ -2,8 +2,8 @@ var gulp  = require('gulp');
 var shell = require('gulp-shell');
 var atom  = require('gulp-atom');
 
-// Run project
-gulp.task('run', function() {
+// Build project
+gulp.task('build', function() {
   return atom({
       srcPath: './src',
       releasePath: './release',
@@ -14,19 +14,9 @@ gulp.task('run', function() {
   });
 })
 
-// Compile project
-gulp.task('osx', shell.task([
-
-]))
-
-// Compile project
-gulp.task('win', shell.task([
-
-]))
-
-// Compile project
-gulp.task('linux', shell.task([
-
+//Run project
+gulp.task('run', shell.task([
+  './release/v0.12.4/darwin/Atom.app/Contents/MacOS/Atom src/'
 ]))
 
 gulp.task('default', ['atom']);
