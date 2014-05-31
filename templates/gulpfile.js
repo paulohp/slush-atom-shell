@@ -1,10 +1,18 @@
-var gulp  = require('gulp')
-var shell = require('gulp-shell')
+var gulp  = require('gulp');
+var shell = require('gulp-shell');
+var atom  = require('gulp-atom');
 
 // Run project
-gulp.task('run', shell.task([
-
-]))
+gulp.task('run', function() {
+  return atom({
+      srcPath: './src',
+      releasePath: './release',
+      cachePath: './cache',
+      version: 'v0.12.4',
+      rebuild: true,
+      platforms: ['osx']
+  });
+})
 
 // Compile project
 gulp.task('osx', shell.task([
@@ -20,3 +28,5 @@ gulp.task('win', shell.task([
 gulp.task('linux', shell.task([
 
 ]))
+
+gulp.task('default', ['atom']);
