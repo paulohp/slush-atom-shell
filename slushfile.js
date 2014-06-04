@@ -13,7 +13,6 @@
  conflict = require('gulp-conflict'),
  template = require('gulp-template'),
  rename = require('gulp-rename'),
- downloadatomshell = require('gulp-download-atom-shell'),
  _ = require('underscore.string'),
  inquirer = require('inquirer');
 
