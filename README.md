@@ -24,9 +24,14 @@ $ mkdir my-slush-atom-shell
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-atom-shell && slush atom-shell
+$ cd my-slush-atom-shell && slush atom-shell && npm install
 ```
 
+After this, you run this command for download and build your app with atom-shell
+
+```bash
+$ gulp build && gulp run
+```
 ## Getting To Know Slush
 
 Slush is a tool that uses Gulp for project scaffolding.
@@ -42,7 +47,7 @@ See the [CONTRIBUTING Guidelines](https://github.com/paulohp/slush-atom-shell/bl
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/paulohp/slush-atom-shell/issues).
 
-## License 
+## License
 
 The MIT License
 
