@@ -1,4 +1,4 @@
-{
+ {
   "name"    : "<%= appName %>",
   "version" : "<%= appVersion %>",
   "description": "<%= appDescription %>",

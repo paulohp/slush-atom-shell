@@ -1,5 +1,9 @@
 {
   "name"    : "<%= appName %>",
   "version" : "<%= appVersion %>",
-  "main"    : "app.js"
+  "main"    : "app.js",
+  "description": "<%= appDescription %>",
+  "repository": {
+    "url": "<%= appRepository %>"
+  }
 }
