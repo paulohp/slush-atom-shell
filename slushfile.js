@@ -33,7 +33,11 @@
     name: 'appVersion',
     message: 'What is the version for your app?',
     default: '0.0.1'
-  }, {
+  },  {
+        name: 'appRepository',
+        message: 'What is your app repository?',
+        default: 'https://github.com/your-name/slush-atom-shell'
+    },{
     type: 'confirm',
     name: 'moveon',
     message: 'Continue?'

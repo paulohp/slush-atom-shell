@@ -1,7 +1,10 @@
 {
   "name"    : "<%= appName %>",
   "version" : "<%= appVersion %>",
-
+  "description": "<%= appDescription %>",
+  "repository": {
+    "url": "<%= appRepository %>"
+  },
   "dependencies": {
     "gulp-atom": "0.0.2",
     "gulp": "^3.6.2",
