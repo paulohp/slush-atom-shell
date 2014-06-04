@@ -1,7 +1,7 @@
 {
   "name": "slush-atom-shell",
   "description": "Generate a Atom-shell app from scratch",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "homepage": "https://github.com/paulohp/slush-atom-shell",
   "author": {
     "name": "Paulo Pires",
@@ -36,7 +36,8 @@
     "gulp-rename": "^1.2.0",
     "gulp-template": "^0.1.1",
     "inquirer": "^0.4.1",
-    "underscore.string": "^2.3.3"
+    "underscore.string": "^2.3.3",
+    "gulp-download-atom-shell": "0.0.2"
   },
   "peerDependencies": {
     "slush": ">=1.0.0"
@@ -44,8 +45,5 @@
   "keywords": [
     "slushgenerator",
     "atom-shell"
-  ],
-  "devDependencies": {
-    "gulp-download-atom-shell": "0.0.2"
-  }
+  ]
 }

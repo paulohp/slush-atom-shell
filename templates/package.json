@@ -2,7 +2,7 @@
   "name"    : "<%= appName %>",
   "version" : "<%= appVersion %>",
 
-  "devDependencies": {
+  "dependencies": {
     "gulp-atom": "0.0.2",
     "gulp": "^3.6.2",
     "gulp-shell": "^0.2.5"
